@@ -1,0 +1,23 @@
+{
+  "name": "fo4forum_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mariadb": "^3.1.1",
+    "moment-timezone": "^0.5.43",
+    "mongodb": "^5.1.0",
+    "morgan": "^1.10.0",
+    "sys": "^0.0.1"
+  }
+}
